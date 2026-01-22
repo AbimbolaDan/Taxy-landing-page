@@ -79,7 +79,7 @@ nav ul li a:hover::after {
     font-weight: 800;
     font-size: 2.4rem;
 }
-.started{
+.started, .started2{
     background-color: var(--primary-green);
     padding: 12px 20px;
     text-decoration: none;
@@ -90,7 +90,7 @@ nav ul li a:hover::after {
     font-size: 0.9rem;
     transition: all 0.3s ease;
 }
-.started:hover{
+.started:hover, .started2:hover{
     transform: scale(1.1);
 }
 .hero-section{
